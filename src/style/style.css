@@ -10,12 +10,14 @@ header {
     width: 100%;
     height: 1080px;
     background-color: #06283c;
+    margin-bottom: 0%;
 }
 
 section {
     display: flex;
     align-items: center;
     color: aqua;
+    margin-bottom: 0%;
 }
 
 nav {
@@ -23,6 +25,7 @@ nav {
     display: flex;
     gap: 93px;
     font-size: 20px;
+    margin-bottom: 0%;
 }
 nav a {
     color: aqua;
@@ -30,8 +33,9 @@ nav a {
 
 h1{
     margin-left: 1%;
+    font-size: 30px;
 }
-img{
+section img{
     width: 80px;
     height: 80px;
     margin-left: 2%;
@@ -42,7 +46,21 @@ a:hover {
      transform: scale(1.4);
 }
 .welcome {
-    margin-top: 330px;
-    margin-left: 251px;
-   
+    position: relative;
+    display: flexbox;
+}
+
+section div img {
+    margin-top: 8%;
+    position: relative;
+    display: flex;
+    width: 580px;
+    height: 580px;
+}
+
+.welcome{
+    margin-top: 0%;
+    margin-left: 10%;
+    font-size: 40px;
+    text-decoration: none;
 }
