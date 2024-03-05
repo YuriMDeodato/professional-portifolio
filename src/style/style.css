@@ -8,13 +8,33 @@
 
 header {
     width: 100%;
-    height: 1080px;
+    height: 80px;
     background-color: #05314b;
     margin-bottom: 0%;
 }
-.cabeça {
-    background-color: #011d2e;
+
+header section img {
+    margin-left: 70px;
 }
+
+section h1 {
+    font-size: 30px;
+    margin-right: 0%;
+}
+.cabeça {
+    font-size: 30px;
+    background-color: #011d2e;   
+    margin-bottom: 0%;
+    margin-left: 100px;
+}
+#cabeçalho {
+    background-color: #011d2e;  
+}
+
+#um {
+    background-color: #05314b;
+}
+
 section {
     display: flex;
     align-items: center;
@@ -23,7 +43,7 @@ section {
 }
 
 nav {
-    margin-left: 10%;
+    margin-left: 5%;
     display: flex;
     gap: 93px;
     font-size: 20px;
@@ -31,15 +51,13 @@ nav {
 }
 nav a {
     color: aqua;
-    margin-bottom: 0%;
-
 }
 #linha {
-    margin-top: 0px;
+    margin-top: 5px;
 }
 
 h1{
-    margin-left: 1%;
+    margin-left: 50px;
     font-size: 30px;
 }
 section img{
@@ -62,37 +80,60 @@ section div img {
 
 .welcome{
     position: absolute;
-    margin-left: 50%;
+    margin-left: 30%;
+    margin-top: 100px;
     margin-bottom: 2%;
     font-size: 40px;
     text-decoration: none;
 }
 #sobre {
-    margin-top: 18%;
-    margin-left: 10%;
+    margin-top: 50px;
+    margin-left: 15%;
     border-style: groove;
     border-width: 10px;
     border-radius: 20px;
-    width: 65%;
+    width: 70%;
     font-family: monospace;
-    padding-left: 10px;
+    font-size: 25px;
+    padding-left: 45px;
 }
 #sobre:hover {
     border: 17px solid #011d2e;
     background-color:  #011d2e;
     transition: 1s;  
     }
-hr {
-    margin-top: 3%;
-}
+
 #foto {
-    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-top: 6%;
     margin-left: 0%;
-    max-width: 336px;
+    max-width: 436px;
     max-height:473px;
     width: auto;
     height: auto;
+   
 }
 .about {
-    background-color:  #011d2e;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    background-color: #011d2e;
+    margin-top: 80px;
+}
+body {
+    background-color: #011d2e;
+}
+#segunda {
+    margin-top: 0%;
+}
+#hard {
+    margin-bottom: 30px;
+}
+#skills {
+    color: #e4ff4e;
+    text-align: center;
+    padding: 100px;
+    margin-top: 10px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
