@@ -1,3 +1,18 @@
+@keyframes bounce {
+    0%, 20%, 60%, 100%{
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+        }
+        40% {
+          -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+        }
+        80%{
+          -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+        }
+    }
+
 *{
     padding: 0%;
     margin: 0%;
@@ -167,7 +182,7 @@ body {
 }
 .neon {
     color: #fff;
-    margin-left: 240px;
+    margin-left: 290px;
     margin-top: 50px;
     margin-bottom: 30px;
     font-size: 20px;
@@ -180,45 +195,37 @@ body {
     box-shadow: inset 0 0 32px 0 rgb(17, 156, 255), 0 0 32px 0 rgb(255, 255, 255);
     text-shadow: 0 0 8px hsl(0 0% 100%/ o.3), o o 32px;
     position: relative;
-}
-
-.neon::before{
-    margin-top: 10px;
-    content: "";
-    position: absolute;
-    top:100%;
-    left: 0;
-    background: #fff;
-    width: 100%;
-    height: 100%;
-    transform: perspective(32px) rotateX(40deg) scale(1,0.35);
-    filter: blur(35px);
-    opacity: 0.7;
-    pointer-events: none;
-}
-
-.neon::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    box-shadow: 0 0 128px 32px #fff;
-    opacity: 0;
-    background-color: #fff;
-    z-index: -1;
-    transition: opacity 100ms linear;
-
-}
-
-.neon:hover{
-    color: aqua;
-    text-shadow: none;
+    animation: bounce 12s;
 }
 
 #pic1 {
+    height: 250px;
     width: 550px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.tuff {
+    color: #fff;
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700px;
+    text-decoration: none;    
+    display: inline-block;
+    border: aqua 8px solid;
+    border-radius: 16px;
+    box-shadow: inset 0 0 32px 0 rgb(17, 156, 255), 0 0 32px 0 rgb(255, 255, 255);
+    text-shadow: 0 0 8px hsl(0 0% 100%/ o.3), o o 32px;
+    position: relative;
+    animation: bounce 12s;
+}
+
+#pic2 {
+    height: 250px;
+    width: 550px ;
     margin-left: 50px;
     margin-top: 30px;
 }
